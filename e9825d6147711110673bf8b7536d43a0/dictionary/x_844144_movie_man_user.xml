@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User" max_length="40" name="x_844144_movie_man_user" sizeclass="0" type="collection">
+        <element dependent="u_string_1" dependent_on_field="u_string_1" display="true" label="Full Name" max_length="40" name="full_name" type="string" use_dependent_field="true"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="User ID" max_length="40" name="number" type="string"/>
+        <element label="Password" mandatory="true" max_length="40" name="password" type="password"/>
+        <element label="User Name" mandatory="true" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

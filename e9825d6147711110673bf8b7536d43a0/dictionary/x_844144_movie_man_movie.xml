@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Movie" max_length="40" name="x_844144_movie_man_movie" type="collection">
+        <element display="true" label="Movie Name" mandatory="true" max_length="40" name="movie_name" type="string"/>
+    </element>
+</database>
