@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Theatre" max_length="40" name="x_844144_movie_man_locations" type="collection">
+    <element label="Theatre" max_length="40" name="x_844144_movie_man_locations" sizeclass="3" type="collection">
         <element label="Location" mandatory="true" max_length="40" name="location" type="string"/>
-        <element display="true" label="Seats" mandatory="true" max_length="100" name="seats" type="integer"/>
+        <element display="true" label="Movie Name" mandatory="true" max_length="40" name="movie_name" type="string"/>
+        <element label="Seats" mandatory="true" max_length="100" name="seats" type="integer"/>
         <element label="Theatre Name" mandatory="true" max_length="40" name="theatre_name" type="string"/>
     </element>
 </database>

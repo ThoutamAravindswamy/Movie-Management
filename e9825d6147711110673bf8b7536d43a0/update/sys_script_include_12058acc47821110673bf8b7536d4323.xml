@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_844144_movie_man.date_cannot_be_past</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>date_cannot_be_past</name>
+        <script><![CDATA[var date_cannot_be_past = Class.create();
+date_cannot_be_past.prototype = {
+    initialize: function() {
+    },
+	isDatePast: function(strDate){
+	    var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		if (testdate.before(rightnow)) {
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+	
+		isDateToday: function(strDate){
+		
+		var rightnow = new GlideDateTime();
+		var testdate = new GlideDateTime(strDate);
+		var today = rightnow.getLocalDate();
+		var istoday = testdate.getLocalDate();
+		if(today.compareTo(istoday) == 0){
+			return true;
+		}
+		else {
+			return false;
+		}
+	},
+
+    type: 'date_cannot_be_past'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-15 11:47:12</sys_created_on>
+        <sys_id>12058acc47821110673bf8b7536d4323</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>date_cannot_be_past</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sys_script_include_12058acc47821110673bf8b7536d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-15 12:12:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

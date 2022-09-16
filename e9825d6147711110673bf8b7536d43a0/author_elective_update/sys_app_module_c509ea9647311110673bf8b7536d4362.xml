@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Booking">8d09ea9647311110673bf8b7536d435f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Bookings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_844144_movie_man_booking</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_844144_movie_man.booking_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 03:48:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c509ea9647311110673bf8b7536d4362</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bookings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sys_app_module_c509ea9647311110673bf8b7536d4362</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 03:48:52</sys_updated_on>
+        <timeline_page/>
+        <title>Bookings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</application>
+        <file_path/>
+        <instance_id>d928650fdb7fd3c01ddcf22ebf9619f5</instance_id>
+        <instance_name>dev70151</instance_name>
+        <name>sys_app_module_c509ea9647311110673bf8b7536d4362</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Booking">8d09ea9647311110673bf8b7536d435f</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Bookings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_844144_movie_man_booking</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_844144_movie_man.booking_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-10 03:48:52</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c509ea9647311110673bf8b7536d4362</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Bookings</sys_name><sys_overrides/><sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package><sys_policy/><sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope><sys_update_name>sys_app_module_c509ea9647311110673bf8b7536d4362</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-10 03:48:52</sys_updated_on><timeline_page/><title>Bookings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1628030565</payload_hash>
+        <record_name>Bookings</record_name>
+        <reverted_from/>
+        <source>3a0f62f947311110673bf8b7536d439d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 03:48:52</sys_created_on>
+        <sys_id>8509ea9647311110673bf8b7536d4364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1832583b7290000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 03:48:52</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cd09ea96213111106f59985dad8a1363</update_guid>
+        <update_guid_history>cd09ea96213111106f59985dad8a1363:1628030565</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Bookings">2a339fe747711110673bf8b7536d4305</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 04:05:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1510985e6ed8489cbf506a2872f70790</sys_id>
+        <sys_metadata>c509ea9647311110673bf8b7536d4362</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bookings</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_scope_delete display_value="">0d7be508370d47f08635edab4fd289a1</sys_scope_delete>
+        <sys_update_name>sys_app_module_c509ea9647311110673bf8b7536d4362</sys_update_name>
+        <sys_update_version display_value="sys_app_module_c509ea9647311110673bf8b7536d4362">8509ea9647311110673bf8b7536d4364</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 04:05:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

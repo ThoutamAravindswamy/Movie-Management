@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_844144_movie_man_booking">x_844144_movie_man_booking</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>1283</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 03:49:31</sys_created_on>
+        <sys_id>44196e9647311110673bf8b7536d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1283</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sys_number_44196e9647311110673bf8b7536d43a3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 03:49:31</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</application>
+        <file_path/>
+        <instance_id>d928650fdb7fd3c01ddcf22ebf9619f5</instance_id>
+        <instance_name>dev70151</instance_name>
+        <name>sys_number_44196e9647311110673bf8b7536d43a3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_844144_movie_man_booking">x_844144_movie_man_booking</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>1283</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-10 03:49:31</sys_created_on><sys_id>44196e9647311110673bf8b7536d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1283</sys_name><sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package><sys_policy/><sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope><sys_update_name>sys_number_44196e9647311110673bf8b7536d43a3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-10 03:49:31</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>1186955478</payload_hash>
+        <record_name>1283</record_name>
+        <reverted_from/>
+        <source>3a0f62f947311110673bf8b7536d439d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 03:49:31</sys_created_on>
+        <sys_id>a629ee9647311110673bf8b7536d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18325844e340000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-10 03:49:31</sys_updated_on>
+        <type>Number</type>
+        <update_guid>ee29ee96c43111105dbde5cf6c9ee132</update_guid>
+        <update_guid_history>ee29ee96c43111105dbde5cf6c9ee132:1186955478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-14 04:05:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>15a6ef13b4ae4bbd8af301bb90125ac1</sys_id>
+        <sys_metadata>44196e9647311110673bf8b7536d43a3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1283</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_parent display_value="">6cf8aa9647311110673bf8b7536d431c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_scope_delete display_value="">0d7be508370d47f08635edab4fd289a1</sys_scope_delete>
+        <sys_update_name>sys_number_44196e9647311110673bf8b7536d43a3</sys_update_name>
+        <sys_update_version display_value="sys_number_44196e9647311110673bf8b7536d43a3">a629ee9647311110673bf8b7536d4333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-14 04:05:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
