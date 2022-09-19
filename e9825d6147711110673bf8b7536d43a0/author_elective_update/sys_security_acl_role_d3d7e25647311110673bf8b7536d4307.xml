@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-10 03:43:51</sys_created_on>
+        <sys_id>d3d7e25647311110673bf8b7536d4307</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_844144_movie_man_ticket.x_844144_movie_man.ticket_user</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_security_acl display_value="x_844144_movie_man_ticket">d3d7e25647311110673bf8b7536d4302</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d3d7e25647311110673bf8b7536d4307</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 10:50:11</sys_updated_on>
+        <sys_user_role display_value="x_844144_movie_man.ticket_user" name="x_844144_movie_man.ticket_user">1bd7ee1647311110673bf8b7536d4310</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</application>
+        <file_path/>
+        <instance_id>d928650fdb7fd3c01ddcf22ebf9619f5</instance_id>
+        <instance_name>dev70151</instance_name>
+        <name>sys_security_acl_role_d3d7e25647311110673bf8b7536d4307</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-10 03:43:51</sys_created_on><sys_id>d3d7e25647311110673bf8b7536d4307</sys_id><sys_mod_count>5</sys_mod_count><sys_name>x_844144_movie_man_ticket.x_844144_movie_man.ticket_user</sys_name><sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package><sys_policy/><sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope><sys_security_acl display_value="x_844144_movie_man_ticket">d3d7e25647311110673bf8b7536d4302</sys_security_acl><sys_update_name>sys_security_acl_role_d3d7e25647311110673bf8b7536d4307</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-16 10:50:11</sys_updated_on><sys_user_role display_value="x_844144_movie_man.ticket_user" name="x_844144_movie_man.ticket_user">1bd7ee1647311110673bf8b7536d4310</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1144190314</payload_hash>
+        <record_name>x_844144_movie_man_ticket.x_844144_movie_man.ticket_user</record_name>
+        <reverted_from/>
+        <source>3a0f62f947311110673bf8b7536d439d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 10:50:11</sys_created_on>
+        <sys_id>83f2cbdc47465110673bf8b7536d43aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18345eb97570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 10:50:11</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8bf2cbdc27465110b0ff1d19989c74a9</update_guid>
+        <update_guid_history>8bf2cbdc27465110b0ff1d19989c74a9:1144190314,35304b1cf24651101a5ca3329b590e85:1581710157,7faebe980646511081454d42010c10aa:1144190314,d6fcbe580f465110dbcd6848240db8ef:561943337,4e8bb6188d46511014f6fd5911d6f8b3:1581710157,67d7e25669311110092c1623ebd44717:1144190314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_844144_movie_man_ticket.x_844144_movie_man.ticket_user">9cfb035847865110673bf8b7536d4303</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 11:29:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>198f26cc3c3c430ebe6372e0ae40fb51</sys_id>
+        <sys_metadata>d3d7e25647311110673bf8b7536d4307</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_844144_movie_man_ticket.x_844144_movie_man.ticket_user</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_parent display_value="x_844144_movie_man_ticket">d3d7e25647311110673bf8b7536d4302</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_scope_delete display_value="">0d7be508370d47f08635edab4fd289a1</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_d3d7e25647311110673bf8b7536d4307</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_d3d7e25647311110673bf8b7536d4307">83f2cbdc47465110673bf8b7536d43aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 11:29:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

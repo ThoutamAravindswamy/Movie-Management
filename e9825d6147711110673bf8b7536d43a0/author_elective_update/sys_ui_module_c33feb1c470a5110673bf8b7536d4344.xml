@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Screens">cf3feb1c470a5110673bf8b7536d4341</application>
+        <filter/>
+        <name>Screens</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_844144_movie_man.screens_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 14:03:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c33feb1c470a5110673bf8b7536d4344</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Screens</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sys_ui_module_c33feb1c470a5110673bf8b7536d4344</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 14:03:31</sys_updated_on>
+        <table>x_844144_movie_man_screens</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</application>
+        <file_path/>
+        <instance_id>d928650fdb7fd3c01ddcf22ebf9619f5</instance_id>
+        <instance_name>dev70151</instance_name>
+        <name>sys_ui_module_c33feb1c470a5110673bf8b7536d4344</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Screens">cf3feb1c470a5110673bf8b7536d4341</application><filter/><name>Screens</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_844144_movie_man.screens_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-16 14:03:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c33feb1c470a5110673bf8b7536d4344</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Screens</sys_name><sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package><sys_policy/><sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope><sys_update_name>sys_ui_module_c33feb1c470a5110673bf8b7536d4344</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-16 14:03:31</sys_updated_on><table>x_844144_movie_man_screens</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>714927314</payload_hash>
+        <record_name>Screens</record_name>
+        <reverted_from/>
+        <source>3a0f62f947311110673bf8b7536d439d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 14:03:31</sys_created_on>
+        <sys_id>433feb1c470a5110673bf8b7536d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183469c97e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-16 14:03:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>8b3feb1c790a511057d099f62dc9cf45</update_guid>
+        <update_guid_history>8b3feb1c790a511057d099f62dc9cf45:714927314</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-18 14:06:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>256b20f3b4bf4dd88ece2e5420e33d09</sys_id>
+        <sys_metadata>c33feb1c470a5110673bf8b7536d4344</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Screens</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_scope_delete display_value="">0d7be508370d47f08635edab4fd289a1</sys_scope_delete>
+        <sys_update_name>sys_ui_module_c33feb1c470a5110673bf8b7536d4344</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_c33feb1c470a5110673bf8b7536d4344">433feb1c470a5110673bf8b7536d4346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-18 14:06:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css/>
+        <glyph>list-alt</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">efc2424d478ed110673bf8b7536d437e</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-16 06:58:47</sys_created_on>
+        <sys_id>990e0ed847825110673bf8b7536d43ab</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Available Movies</sys_name>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sp_instance_link_990e0ed847825110673bf8b7536d43ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-18 14:05:18</sys_updated_on>
+        <title>Available Movies</title>
+        <type>url</type>
+        <url>https://dev70151.service-now.com/now/nav/ui/classic/params/target/x_844144_movie_man_locations_list.do%3Fsysparm_userpref_module%3D135b6ab947311110673bf8b7536d432f</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=990e0ed847825110673bf8b7536d43ab"/>
+</record_update>

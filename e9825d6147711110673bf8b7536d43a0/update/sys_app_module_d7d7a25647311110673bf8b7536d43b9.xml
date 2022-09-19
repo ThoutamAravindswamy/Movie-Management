@@ -17,14 +17,14 @@
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_844144_movie_man.ticket_user</roles>
+        <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-09-10 03:43:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d7d7a25647311110673bf8b7536d43b9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Tickets</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
@@ -32,7 +32,7 @@
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
         <sys_update_name>sys_app_module_d7d7a25647311110673bf8b7536d43b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-10 03:43:50</sys_updated_on>
+        <sys_updated_on>2022-09-16 10:26:33</sys_updated_on>
         <timeline_page/>
         <title>Tickets</title>
         <uncancelable>false</uncancelable>

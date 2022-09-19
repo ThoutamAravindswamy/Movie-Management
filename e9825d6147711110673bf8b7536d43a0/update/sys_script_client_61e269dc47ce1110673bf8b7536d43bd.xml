@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -12,10 +12,10 @@
         <order/>
         <script><![CDATA[function onSubmit() {
    //Type appropriate comment here, and begin script below
-	var movie = g_form.getReference('movies',getAvailableSeats);
+	var movie = g_form.getReference('theatre',getAvailableSeats);
 	function getAvailableSeats(movie){
 		var tickets = g_form.getValue('no_of_tickets');
-		movie.seats-=tickets;
+		movie.
 	}
    
 }]]></script>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>61e269dc47ce1110673bf8b7536d43bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Reduce tickets available</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
         <sys_update_name>sys_script_client_61e269dc47ce1110673bf8b7536d43bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-16 03:53:09</sys_updated_on>
+        <sys_updated_on>2022-09-19 05:21:36</sys_updated_on>
         <table>x_844144_movie_man_ticket</table>
         <type>onSubmit</type>
         <ui_type>0</ui_type>

@@ -10,8 +10,8 @@
             <plural>Theatre Names</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-08 14:43:44</sys_created_on>
-            <sys_id>9ebb22f947311110673bf8b7536d43db</sys_id>
+            <sys_created_on>2022-09-16 13:20:06</sys_created_on>
+            <sys_id>4b456790470a5110673bf8b7536d4310</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Theatre Name</sys_name>
             <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
@@ -19,7 +19,7 @@
             <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
             <sys_update_name>sys_documentation_x_844144_movie_man_locations_theatre_name_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-08 14:43:44</sys_updated_on>
+            <sys_updated_on>2022-09-16 13:20:06</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

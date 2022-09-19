@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>theatre</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Auto populate Seats Available</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	function onChange(control, oldValue, newValue, isLoading) {
+   var userObject = g_form.getReference('theatre', doAlert); // doAlert is our callback function
+}
+function doAlert(userObject) { //reference is passed into callback as first arguments
+   g_form.setValue('seats_available', userObject.seats);
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-18 14:29:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c86742cd478ed110673bf8b7536d4375</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Auto populate Seats Available</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
+        <sys_update_name>sys_script_client_c86742cd478ed110673bf8b7536d4375</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-18 14:54:14</sys_updated_on>
+        <table>x_844144_movie_man_ticket</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
