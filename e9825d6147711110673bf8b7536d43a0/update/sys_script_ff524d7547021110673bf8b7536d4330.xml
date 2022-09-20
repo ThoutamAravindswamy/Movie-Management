@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -20,7 +20,7 @@
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Change no of seats</name>
+        <name>abc</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -32,45 +32,34 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var theatre = new GlideRecord('x_844144_movie_man_locations');
-	current.orderByDesc('sys_created_on');
-	current.setLimit(1);
-	current.query();
-	alert('Working');
-	var theatreName;
-	var tickets;
-	while(current.next()){
-		alert('While loop entered');
-		theatreName = current.getDisplayValue('theatre');
-		tickets = current.getValue('no_of_tickets');
-	}
-	theatre.addQuery('movie_name',theatreName);
-	var seatsAvailable;
-	while (theatre.next()){
-		alert('Another loop Entered');
-		seatsAvailable = theatre.getValue('seats');
-	}
-	seatsAvailable -= tickets;
-	theatre.update();
+	gs.addInfoMessage('Hello');
+	var gr=new GlideRecord('x_844144_movie_man_locations');
+	var theatreName = current.getDisplayValue('theatre');
+	gr.addQuery('theatre_name',theatreName);
+	var SeatsAvailable = current.theatre.seats;
+	var tickets = current.no_of_tickets;
+	gr.seats = SeatsAvailable - tickets;
+	gr.update();
+	gs.addInfoMessage('Available Seats are'+ gr.seats);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-16 05:48:44</sys_created_on>
+        <sys_created_on>2022-09-20 17:29:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1f69b95447425110673bf8b7536d4317</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Change no of seats</sys_name>
+        <sys_id>ff524d7547021110673bf8b7536d4330</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>abc</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
-        <sys_update_name>sys_script_1f69b95447425110673bf8b7536d4317</sys_update_name>
+        <sys_update_name>sys_script_ff524d7547021110673bf8b7536d4330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-20 17:03:01</sys_updated_on>
+        <sys_updated_on>2022-09-20 18:13:43</sys_updated_on>
         <template/>
-        <when>before</when>
+        <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=1f69b95447425110673bf8b7536d4317"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff524d7547021110673bf8b7536d4330"/>
 </record_update>
