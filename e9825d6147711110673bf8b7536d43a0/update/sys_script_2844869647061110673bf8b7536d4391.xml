@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_844144_movie_man_ticket</collection>
+        <collection>x_844144_movie_man_movie</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>abc</name>
+        <name>movie already exists</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,35 +30,38 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var gr=new GlideRecord('x_844144_movie_man_locations');
-	var theatreName = current.getDisplayValue('theatre');
-	gr.addQuery('theatre_name',theatreName);
-	var SeatsAvailable = current.theatre.seats;
-	var tickets = current.no_of_tickets;
-	gr.seats = SeatsAvailable - tickets;
-	gr.location1=current.theatre.location1;
-	gr.theatre_name=current.theatre.theatre_name;
-	gr.movie_name = current.theatre.getDisplayValue('movie_name');
-	gr.update();
+	var movie=new GlideRecord('x_844144_movie_man_movie');
+	var movie_name1= current.movie_name;
+	movie.addQuery('movie_name',movie_name1);
+	movie.query();
+	var exists = movie.getRowCount();
+	if(exists > 1){
+		gs.addErrorMessage('Movie Already Exists');
+		current.deleteRecord();
+	}
+	else{
+		gs.addInfoMessage('Movie Added Successfully');
+	}
+
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-20 17:29:05</sys_created_on>
+        <sys_created_on>2022-09-22 11:26:41</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ff524d7547021110673bf8b7536d4330</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>abc</sys_name>
+        <sys_id>2844869647061110673bf8b7536d4391</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>movie already exists</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
-        <sys_update_name>sys_script_ff524d7547021110673bf8b7536d4330</sys_update_name>
+        <sys_update_name>sys_script_2844869647061110673bf8b7536d4391</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-26 07:59:41</sys_updated_on>
+        <sys_updated_on>2022-09-22 11:30:34</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=ff524d7547021110673bf8b7536d4330"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=2844869647061110673bf8b7536d4391"/>
 </record_update>

@@ -6,19 +6,19 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>x_844144_movie_man_ticket</collection>
+        <collection>x_844144_movie_man_locations</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>abc</name>
+        <name>cannot add Same theatres</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -30,35 +30,37 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	var gr=new GlideRecord('x_844144_movie_man_locations');
-	var theatreName = current.getDisplayValue('theatre');
-	gr.addQuery('theatre_name',theatreName);
-	var SeatsAvailable = current.theatre.seats;
-	var tickets = current.no_of_tickets;
-	gr.seats = SeatsAvailable - tickets;
-	gr.location1=current.theatre.location1;
-	gr.theatre_name=current.theatre.theatre_name;
-	gr.movie_name = current.theatre.getDisplayValue('movie_name');
-	gr.update();
+	var theatre=new GlideRecord('x_844144_movie_man_locations');
+	var theatre_name1= current.theatre_name;
+	theatre.addQuery('theatre_name',theatre_name1);
+	theatre.query();
+	var exists = theatre.getRowCount();
+	if(exists > 1){
+		gs.addErrorMessage('Theatre Already Exists');
+		current.deleteRecord();
+	}
+	else{
+		gs.addInfoMessage('Theatre Added Successfully');
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-20 17:29:05</sys_created_on>
+        <sys_created_on>2022-09-22 11:07:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ff524d7547021110673bf8b7536d4330</sys_id>
-        <sys_mod_count>16</sys_mod_count>
-        <sys_name>abc</sys_name>
+        <sys_id>375ef51a47c21110673bf8b7536d4399</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>cannot add Same theatres</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
-        <sys_update_name>sys_script_ff524d7547021110673bf8b7536d4330</sys_update_name>
+        <sys_update_name>sys_script_375ef51a47c21110673bf8b7536d4399</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-26 07:59:41</sys_updated_on>
+        <sys_updated_on>2022-09-22 11:54:21</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=ff524d7547021110673bf8b7536d4330"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=375ef51a47c21110673bf8b7536d4399"/>
 </record_update>

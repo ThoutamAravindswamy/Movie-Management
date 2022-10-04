@@ -21,6 +21,7 @@
 }
 function doAlert(userObject) { //reference is passed into callback as first arguments
    g_form.setValue('seats_available', userObject.seats);
+	g_form.setValue('movieName',userObject.movie_name);
 }
    
 }]]></script>
@@ -30,7 +31,7 @@ function doAlert(userObject) { //reference is passed into callback as first argu
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c86742cd478ed110673bf8b7536d4375</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Auto populate Seats Available</sys_name>
         <sys_overrides/>
         <sys_package display_value="Movie Management" source="x_844144_movie_man">e9825d6147711110673bf8b7536d43a0</sys_package>
@@ -38,7 +39,7 @@ function doAlert(userObject) { //reference is passed into callback as first argu
         <sys_scope display_value="Movie Management">e9825d6147711110673bf8b7536d43a0</sys_scope>
         <sys_update_name>sys_script_client_c86742cd478ed110673bf8b7536d4375</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-09-20 16:56:32</sys_updated_on>
+        <sys_updated_on>2022-09-26 08:20:19</sys_updated_on>
         <table>x_844144_movie_man_ticket</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

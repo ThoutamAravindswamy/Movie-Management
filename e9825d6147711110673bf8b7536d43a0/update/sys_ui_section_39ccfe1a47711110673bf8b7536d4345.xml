@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5595cecd478ed110673bf8b7536d436d</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>9a008e2f47021110673bf8b7536d439d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5d95cecd478ed110673bf8b7536d436d</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>52008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>price</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5195cecd478ed110673bf8b7536d436e</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>d2008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5595cecd478ed110673bf8b7536d436e</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>56008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -60,97 +60,97 @@
             <element>date</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5995cecd478ed110673bf8b7536d436e</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>d6008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>show_time</element>
+            <element>moviename</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5d95cecd478ed110673bf8b7536d436e</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>5a008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>seats_available</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5195cecd478ed110673bf8b7536d436f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>no_of_tickets</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5595cecd478ed110673bf8b7536d436f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>total_price</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5995cecd478ed110673bf8b7536d436f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>theatre</element>
-            <position>9</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5d95cecd478ed110673bf8b7536d436f</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>da008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>location</element>
-            <position>10</position>
+            <element>show_time</element>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-09-18 14:17:21</sys_created_on>
-            <sys_id>5195cecd478ed110673bf8b7536d4370</sys_id>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>5e008e2f47021110673bf8b7536d439e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-09-18 14:17:21</sys_updated_on>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>seats_available</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>de008e2f47021110673bf8b7536d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>no_of_tickets</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>52008e2f47021110673bf8b7536d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_price</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-09-26 08:17:56</sys_created_on>
+            <sys_id>d2008e2f47021110673bf8b7536d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_844144_movie_man_ticket" sys_domain="global" view="Default view">39ccfe1a47711110673bf8b7536d4345</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-09-26 08:17:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
